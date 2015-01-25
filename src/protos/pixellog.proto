@@ -1,0 +1,18 @@
+package BasicPixel;
+
+message PixelLog {
+  required int32 acct_id = 1;
+  required string uid = 2;
+  required string url = 3;
+  required string etype = 4;
+  required int32 is_conversion = 5;
+  required int64 log_time = 6;
+  required string referrer = 7;
+  optional string title = 8;
+  optional int32 tzo = 9;
+  optional string canonical_url = 10;
+  optional string path = 11;
+  optional string ip_address = 12;
+  optional string user_agent = 13;
+  optional string device = 14;
+}
